@@ -1,0 +1,28 @@
+order_id:
+  type: numeric
+  allow_null: false
+  min: 1
+
+customer_email:
+  type: string
+  allow_null: false
+
+order_date:
+  type: datetime
+  allow_null: false
+  allow_future: false
+
+order_status:
+  type: categorical
+  allow_null: false
+  allowed_values:
+    - completed
+    - cancelled
+    - pending
+    - refunded
+
+total_amount:
+  type: numeric
+  allow_null: false
+  min: 0
+  max: 100000

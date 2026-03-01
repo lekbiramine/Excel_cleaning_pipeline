@@ -1,0 +1,39 @@
+Report for: pipeline
+Generated at: 2026-03-01 18:18:11.013498
+Total rows processed: 200000
+Cleaned rows: 67200
+Rejected rows: 132800
+Rejection rate: 66.40%
+
+Rejection breakdown:
+ - total_amount_null;total_amount_invalid_numeric;: 16964
+ - order_status_null;order_status_invalid;: 16859
+ - total_amount_invalid_numeric;: 16812
+ - customer_email_null;: 14728
+ - order_date_null;order_date_invalid_date;: 11517
+ - total_amount_below_min;: 11068
+ - order_status_null;order_status_invalid;total_amount_invalid_numeric;: 4100
+ - order_status_null;order_status_invalid;total_amount_null;total_amount_invalid_numeric;: 4099
+ - customer_email_null;total_amount_invalid_numeric;: 3670
+ - customer_email_null;total_amount_null;total_amount_invalid_numeric;: 3612
+ - customer_email_null;order_status_null;order_status_invalid;: 3547
+ - order_date_null;order_date_invalid_date;total_amount_null;total_amount_invalid_numeric;: 3085
+ - order_date_null;order_date_invalid_date;order_status_null;order_status_invalid;: 2928
+ - order_date_null;order_date_invalid_date;total_amount_invalid_numeric;: 2926
+ - order_status_null;order_status_invalid;total_amount_below_min;: 2814
+ - customer_email_null;order_date_null;order_date_invalid_date;: 2587
+ - customer_email_null;total_amount_below_min;: 2378
+ - order_date_null;order_date_invalid_date;total_amount_below_min;: 1951
+ - customer_email_null;order_status_null;order_status_invalid;total_amount_null;total_amount_invalid_numeric;: 945
+ - customer_email_null;order_status_null;order_status_invalid;total_amount_invalid_numeric;: 906
+ - order_date_null;order_date_invalid_date;order_status_null;order_status_invalid;total_amount_invalid_numeric;: 719
+ - order_date_null;order_date_invalid_date;order_status_null;order_status_invalid;total_amount_null;total_amount_invalid_numeric;: 710
+ - customer_email_null;order_date_null;order_date_invalid_date;order_status_null;order_status_invalid;: 671
+ - customer_email_null;order_status_null;order_status_invalid;total_amount_below_min;: 640
+ - customer_email_null;order_date_null;order_date_invalid_date;total_amount_null;total_amount_invalid_numeric;: 623
+ - customer_email_null;order_date_null;order_date_invalid_date;total_amount_invalid_numeric;: 621
+ - order_date_null;order_date_invalid_date;order_status_null;order_status_invalid;total_amount_below_min;: 448
+ - customer_email_null;order_date_null;order_date_invalid_date;total_amount_below_min;: 400
+ - customer_email_null;order_date_null;order_date_invalid_date;order_status_null;order_status_invalid;total_amount_invalid_numeric;: 186
+ - customer_email_null;order_date_null;order_date_invalid_date;order_status_null;order_status_invalid;total_amount_null;total_amount_invalid_numeric;: 168
+ - customer_email_null;order_date_null;order_date_invalid_date;order_status_null;order_status_invalid;total_amount_below_min;: 118

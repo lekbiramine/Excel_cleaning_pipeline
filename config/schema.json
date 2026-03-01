@@ -1,0 +1,20 @@
+{
+  "required_columns": [
+    "order_id",
+    "customer_email",
+    "order_date",
+    "order_status",
+    "total_amount"
+  ],
+
+  "aliases": {
+    "Order ID": "order_id",
+    "OrderID": "order_id",
+    "Email": "customer_email",
+    "Customer Email": "customer_email",
+    "Date": "order_date",
+    "Status": "order_status",
+    "Amount": "total_amount",
+    "Total": "total_amount"
+  }
+}
