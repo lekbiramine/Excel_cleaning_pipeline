@@ -1,4 +1,3 @@
-# 13
 from infrastructure.environment import AppEnvironment
 from infrastructure.logger import get_logger
 from infrastructure.file_loader import FileLoader

@@ -1,4 +1,3 @@
-# 5
 import pandas as pd
 from pathlib import Path
 from logging import Logger
@@ -6,7 +5,7 @@ from logging import Logger
 class FileLoader:
     """
     Handles loading Excel and CSV files.
-    Supports chenked loading for large CSV files.
+    Supports chunked loading for large CSV files.
     """
 
     def __init__(self, logger: Logger, chunk_size: int = 200_000) -> None:

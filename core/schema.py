@@ -1,4 +1,3 @@
-# 2
 import pandas as pd
 from logging import Logger
 

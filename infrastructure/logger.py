@@ -1,4 +1,3 @@
-# 12
 from pathlib import Path
 import logging
 
@@ -8,7 +7,7 @@ def get_logger(log_dir: Path, log_name: str = "excel_pipeline") -> logging.Logge
 
     Args:
         log_dir (Path): Directory to store the log file.
-        log_name (str): Name of the loogger (default: "excel_pipeline").
+        log_name (str): Name of the logger (default: "excel_pipeline").
     
     Returns:
     logging.Logger: Configured logger instance.

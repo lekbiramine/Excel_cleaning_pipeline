@@ -1,4 +1,3 @@
-# 4
 import pandas as pd
 from logging import Logger
 from .schema import SchemaAligner
